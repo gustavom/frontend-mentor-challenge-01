@@ -35,6 +35,9 @@ b,
 strong {
   font-weight: 700;
 }
+h2 {
+  font-size: 18px;
+}
 p {
   line-height: 2;
 }
@@ -69,12 +72,15 @@ p {
 .intro h1 {
   color: hsl(179, 62%, 43%);
   font-size: 24px;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 .intro h2 {
   color: hsl(71, 73%, 54%);
-  font-size: 22px;
-  margin-bottom: 28px;
+  margin-bottom: 7px;
+}
+
+.intro p {
+  line-height: 1.5;
 }
 
 .price {
@@ -87,22 +93,21 @@ p {
 }
 
 .price h2 {
-  font-size: 22px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .price p {
-  margin-bottom: 30px;
   color: rgba(255, 255, 255, 0.8);
 }
 .price p.value {
   color: rgba(255, 255, 255, 0.5);
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .price p.value b {
   color: #fff;
-  font-size: 30px;
+  font-size: 31px;
+  line-height: 31px;
   margin-right: 14px;
 }
 .price .button {
@@ -118,6 +123,7 @@ p {
   text-decoration: none;
   padding: 15px 5px;
   transition: all 0.2s;
+  margin-top: 24px;
 }
 .price .button:hover {
   transform: scale(1.05);
@@ -134,8 +140,7 @@ p {
   font-size: 15px;
 }
 .why-us h2 {
-  font-size: 22px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .why-us ul li {
